@@ -69,14 +69,14 @@ nav a.active{color:var(--accent)}
 .publication-heading h2{margin:7px 0 0}
 .publication-count{white-space:nowrap;padding:7px 12px;border:1px solid var(--line);background:#fff;color:var(--accent);font-size:13px;font-weight:700}
 .apa-list{margin:0;padding:0;list-style:none;counter-reset:apa}
-.apa-list li{counter-increment:apa;position:relative;margin:0;padding:0 0 28px 48px;border-bottom:1px solid var(--line);font-size:16px;line-height:1.75}
+.apa-list li{counter-increment:apa;position:relative;margin:0;padding:0 0 26px 48px;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.7}
 .apa-list li+li{padding-top:28px}
 .apa-list li::before{content:counter(apa,decimal-leading-zero);position:absolute;left:0;top:0;color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.04em}
 .apa-list li+li::before{top:28px}
 .apa-list a{color:var(--accent);overflow-wrap:anywhere}
 .apa-list a:hover{text-decoration:underline}
 .apa-list strong{color:var(--ink)}
-@media(max-width:700px){.publication-heading{display:block}.publication-count{display:inline-block;margin-top:12px}.apa-list li{padding-left:38px;font-size:15px}}
+@media(max-width:700px){.publication-heading{display:block}.publication-count{display:inline-block;margin-top:12px}.apa-list li{padding-left:38px;font-size:14px}}
 
 /* Completed projects */
 .completed-projects{background:#f7f5ef}
