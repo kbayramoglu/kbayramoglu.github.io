@@ -46,7 +46,7 @@ nav a.active{color:var(--accent)}
 .publication-hero{padding-top:65px;padding-bottom:45px}
 .publication-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:clamp(45px,6vw,90px);align-items:start}
 .publication-types{position:sticky;top:105px}
-.publication-types h2{margin:0 0 25px;font-size:34px}
+.publication-types h2{margin:0 0 25px;font-size:25px}
 .publication-types h3{margin:25px 0 8px;font:600 22px/1.2 var(--serif)}
 .publication-types a{display:block;margin:5px 0;padding:10px 13px;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:14px}
 .publication-types a:hover{border-color:var(--accent);color:var(--accent)}
