@@ -46,11 +46,11 @@ nav a.active{color:var(--accent)}
 .publication-hero{padding-top:65px;padding-bottom:45px}
 .publication-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:clamp(45px,6vw,90px);align-items:start}
 .publication-types{position:sticky;top:105px}
-.publication-types h2{margin:0 0 25px;font-size:25px}
+.publication-types h2{margin:0 0 25px;font-size:34px}
 .publication-types h3{margin:25px 0 8px;font:600 22px/1.2 var(--serif)}
 .publication-types a{display:block;margin:5px 0;padding:10px 13px;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:14px}
 .publication-types a:hover{border-color:var(--accent);color:var(--accent)}
-.publication-category{scroll-margin-top:50px}
+.publication-category{scroll-margin-top:105px}
 .publication-category>h2{margin:0 0 34px;color:var(--accent);font-size:clamp(30px,3.5vw,48px)}
 .publication-item{display:grid;grid-template-columns:50px 1fr;gap:10px;padding:0 0 32px;margin-bottom:28px;border-bottom:1px solid var(--line)}
 .publication-number{padding-top:3px;color:var(--accent);font-weight:700}
@@ -62,11 +62,11 @@ nav a.active{color:var(--accent)}
 @media(max-width:560px){.publication-item{grid-template-columns:1fr}.publication-number{padding:0}.publication-types a{display:block}}
 
 /* APA publication list */
-.publication-intro{max-width:76px;margin:22px 0 0;color:var(--muted);font-size:17px}
+.publication-intro{max-width:760px;margin:22px 0 0;color:var(--muted);font-size:17px}
 .publication-types a{display:flex;justify-content:space-between;gap:15px;align-items:center}
 .publication-types a span{min-width:28px;text-align:center;color:var(--accent);font-weight:700}
 .publication-heading{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:32px}
-.publication-heading h2{margin:7px 0 0}
+.publication-heading h2{margin:7px 0 0;font-size:26px}
 .publication-count{white-space:nowrap;padding:7px 12px;border:1px solid var(--line);background:#fff;color:var(--accent);font-size:13px;font-weight:700}
 .apa-list{margin:0;padding:0;list-style:none;counter-reset:apa}
 .apa-list li{counter-increment:apa;position:relative;margin:0;padding:0 0 26px 48px;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.7}
@@ -101,3 +101,5 @@ nav a.active{color:var(--accent)}
 .network-grid p:last-child{color:#bac3bf}
 @media(max-width:1050px){.completed-project-grid{grid-template-columns:1fr}.completed-project-card{min-height:0}.project-institutions{margin-top:25px}}
 @media(max-width:700px){.project-section-heading{display:block}.project-section-heading>span{display:inline-block;margin-top:12px}.network-grid{grid-template-columns:1fr}.project-card-top{margin-bottom:35px}}
+.biography>div{max-width:820px}.biography p{margin-top:0;margin-bottom:22px}
+@media(max-width:700px){.publication-heading h2{font-size:23px}}
