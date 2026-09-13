@@ -50,7 +50,7 @@ nav a.active{color:var(--accent)}
 .publication-types h3{margin:25px 0 8px;font:600 22px/1.2 var(--serif)}
 .publication-types a{display:block;margin:5px 0;padding:10px 13px;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:14px}
 .publication-types a:hover{border-color:var(--accent);color:var(--accent)}
-.publication-category{scroll-margin-top:105px}
+.publication-category{scroll-margin-top:50px}
 .publication-category>h2{margin:0 0 34px;color:var(--accent);font-size:clamp(30px,3.5vw,48px)}
 .publication-item{display:grid;grid-template-columns:50px 1fr;gap:10px;padding:0 0 32px;margin-bottom:28px;border-bottom:1px solid var(--line)}
 .publication-number{padding-top:3px;color:var(--accent);font-weight:700}
