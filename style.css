@@ -77,3 +77,27 @@ nav a.active{color:var(--accent)}
 .apa-list a:hover{text-decoration:underline}
 .apa-list strong{color:var(--ink)}
 @media(max-width:700px){.publication-heading{display:block}.publication-count{display:inline-block;margin-top:12px}.apa-list li{padding-left:38px;font-size:15px}}
+
+/* Completed projects */
+.completed-projects{background:#f7f5ef}
+.project-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:42px}
+.project-section-heading h2{margin:8px 0 0}
+.project-section-heading>span{padding:7px 13px;border:1px solid var(--line);background:#fff;color:var(--accent);font-size:13px;font-weight:700;white-space:nowrap}
+.completed-project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.completed-project-card{display:flex;flex-direction:column;min-height:500px;padding:30px;background:#fff;border:1px solid var(--line)}
+.project-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:58px}
+.project-index{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.08em}
+.project-status{padding:5px 9px;background:#e2f0e9;color:var(--accent);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.completed-project-card h3{margin:0 0 20px;font:600 27px/1.18 var(--serif)}
+.completed-project-card>p{margin:0;color:var(--muted);font-size:16px;line-height:1.75}
+.project-institutions{margin-top:auto;padding-top:28px;color:var(--ink);font-size:13px;font-weight:700;line-height:1.5}
+.project-networks{background:var(--ink);color:#fff}
+.project-networks .section-kicker{color:#8fd3bd}
+.network-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:#40504a;border:1px solid #40504a}
+.network-grid article{min-height:270px;padding:32px;background:var(--ink)}
+.network-grid article:hover{background:#1d312a}
+.network-grid .tag{color:#8fd3bd}
+.network-grid h3{margin:58px 0 16px;font:600 28px/1.15 var(--serif)}
+.network-grid p:last-child{color:#bac3bf}
+@media(max-width:1050px){.completed-project-grid{grid-template-columns:1fr}.completed-project-card{min-height:0}.project-institutions{margin-top:25px}}
+@media(max-width:700px){.project-section-heading{display:block}.project-section-heading>span{display:inline-block;margin-top:12px}.network-grid{grid-template-columns:1fr}.project-card-top{margin-bottom:35px}}
