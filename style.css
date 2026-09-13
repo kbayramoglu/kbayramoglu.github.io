@@ -41,3 +41,22 @@ nav a.active{color:var(--accent)}
 /* Home: navigation at the upper right */
 .profile-home .site-header{background:rgba(255,255,255,.94)}
 .profile-home .profile-shell{min-height:calc(100vh - 73px)}
+
+/* Publication categories */
+.publication-hero{padding-top:65px;padding-bottom:45px}
+.publication-layout{display:grid;grid-template-columns:280px minmax(0,1fr);gap:clamp(45px,6vw,90px);align-items:start}
+.publication-types{position:sticky;top:105px}
+.publication-types h2{margin:0 0 25px;font-size:34px}
+.publication-types h3{margin:25px 0 8px;font:600 22px/1.2 var(--serif)}
+.publication-types a{display:block;margin:5px 0;padding:10px 13px;border:1px solid var(--line);background:#fff;color:var(--muted);font-size:14px}
+.publication-types a:hover{border-color:var(--accent);color:var(--accent)}
+.publication-category{scroll-margin-top:105px}
+.publication-category>h2{margin:0 0 34px;color:var(--accent);font-size:clamp(30px,3.5vw,48px)}
+.publication-item{display:grid;grid-template-columns:50px 1fr;gap:10px;padding:0 0 32px;margin-bottom:28px;border-bottom:1px solid var(--line)}
+.publication-number{padding-top:3px;color:var(--accent);font-weight:700}
+.publication-item h3{margin:0 0 8px;font:600 23px/1.3 var(--serif)}
+.publication-item p{margin:3px 0;color:var(--muted)}
+.compact-category{padding-top:65px;margin-top:25px;border-top:1px solid var(--line)}
+.compact-category p{color:var(--muted)}
+@media(max-width:900px){.publication-layout{grid-template-columns:1fr}.publication-types{position:static}.publication-types a{display:inline-block;margin:4px 3px 4px 0}.publication-category{scroll-margin-top:85px}}
+@media(max-width:560px){.publication-item{grid-template-columns:1fr}.publication-number{padding:0}.publication-types a{display:block}}
