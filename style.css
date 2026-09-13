@@ -32,8 +32,12 @@ nav a.active{color:var(--accent)}
 .profile-photo-wrap{width:min(360px,82vw);min-height:0;aspect-ratio:1/1;margin:0 auto;border-radius:6px}
 .profile-information{width:100%;align-items:center;padding:0;gap:30px}
 .profile-heading,.affiliation{width:100%;text-align:center}
-.profile-heading h1{font-size:clamp(38px,5vw,28px)}
+.profile-heading h1{font-size:clamp(38px,5vw,58px)}
 .profile-contact,.contact-links{align-items:center;text-align:center}
 .profile-contact a,.contact-links a{width:auto}
 .social-icons{width:100%;justify-content:center}
 .profile-tabs{width:100%;margin-top:38px}
+
+/* Home: navigation at the upper right */
+.profile-home .site-header{background:rgba(255,255,255,.94)}
+.profile-home .profile-shell{min-height:calc(100vh - 73px)}
