@@ -62,7 +62,7 @@ nav a.active{color:var(--accent)}
 @media(max-width:560px){.publication-item{grid-template-columns:1fr}.publication-number{padding:0}.publication-types a{display:block}}
 
 /* APA publication list */
-.publication-intro{max-width:760px;margin:22px 0 0;color:var(--muted);font-size:17px}
+.publication-intro{max-width:76px;margin:22px 0 0;color:var(--muted);font-size:17px}
 .publication-types a{display:flex;justify-content:space-between;gap:15px;align-items:center}
 .publication-types a span{min-width:28px;text-align:center;color:var(--accent);font-weight:700}
 .publication-heading{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:32px}
